@@ -70,6 +70,7 @@ cc.Class({
         let scenes = window.scenes[this.currentScene];
         console.log("scenes: "+scenes);
         this.nextScene = scenes[this.currentDoor];
+        console.log("next:"+this.nextScene);
         cc.director.loadScene(this.nextScene,this.onSceneLaunched);
         
     },

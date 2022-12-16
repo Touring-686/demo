@@ -37,14 +37,14 @@ cc.Class({
         let e_pos = this.node.convertToWorldSpaceAR(cc.v2(0,0));
         let dis = cc.Vec2.distance(e_pos, p_pos);
 
-        if (dis < 30 && this.canShow == false) {
+        if (dis < 100 && this.canShow == false) {
             Global.itemType = this.charType;
             Global.itemName = this.node.name;
             this.tip.active = true;
             this.canShow = true;
         }
         else  {
-            if (dis >= 30 && this.canShow == true) {
+            if (dis >= 100 && this.canShow == true) {
                 this.tip.active = false;
                 this.canShow = false;
                 Global.itemType = ' ';

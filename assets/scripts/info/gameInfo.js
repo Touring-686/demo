@@ -5,11 +5,18 @@ window.games = {
     // 原场景格式: 章节号_场景名
 
     // 第一章游戏索引
-    "chp1_scene1_1_game1" : "chp1_scene1",
+    "chp1_302_1_lamp" : "chp1_302",
 
+    "chp1_302_2_lock" : "chp1_302",
+
+    "chp1_zoulang_1_lock" : "chp1_zoulangF1",
+    
+    "chp1_201_1_cup"  : "chp1_201",
+
+    "chp1_203_1_washingMachine"  : "chp1_203",
+    
     // 第二章游戏索引
 
-    "chp2_scene2_1_game2" : "chp2_scene1",
 
     // 第三章游戏索引
 

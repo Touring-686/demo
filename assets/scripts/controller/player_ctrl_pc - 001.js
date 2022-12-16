@@ -141,13 +141,13 @@ cc.Class({
             case 'left': {
                 lv.x = -this.playerSpeed;
                 // this.node.scaleX = -scaleX;
-                anima = 'run';
+                anima = 'runleft';
                 break;
             }
             case 'right': {
                 lv.x = this.playerSpeed;
                 this.node.scaleX = scaleX;
-                anima = 'run';
+                anima = 'runright';
                 break;
             }
             default: {

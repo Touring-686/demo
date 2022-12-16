@@ -3880,16 +3880,10 @@
       "__id__": 81
     },
     "_enabled": true,
-    "_defaultClip": {
-      "__uuid__": "b8ad9f45-b32f-419f-b221-c7b10fc1e542"
-    },
+    "_defaultClip": null,
     "_clips": [
-      {
-        "__uuid__": "b8ad9f45-b32f-419f-b221-c7b10fc1e542"
-      },
-      {
-        "__uuid__": "938611b0-6dea-40c7-bdd4-5d88d691f18a"
-      }
+      null,
+      null
     ],
     "playOnLoad": false,
     "_id": "78w2CnUnFMqala//IyPQZj"
