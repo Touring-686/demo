@@ -52,5 +52,5 @@ module.exports = {
     POINTS,
     POMAP,
     pushData,
-    // getData,
+    getData,
 }
