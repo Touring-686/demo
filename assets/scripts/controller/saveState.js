@@ -50,7 +50,7 @@ cc.Class({
 
 module.exports = {
     POINTS,
-    POMAP,
+    // POMAP,
     pushData,
     getData,
 }
